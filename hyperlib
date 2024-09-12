@@ -356,6 +356,8 @@ repeat
     wait(0.1)
 until game:IsLoaded()
 UpdateWindowTitle("Game is loaded!")
+bigBlueItalicText("I, pkplaysrblx, only added the toggle")
+bigBlueItalicText("Not owner of script")
 
 if game.PlaceId == 13772394625 then
     UpdateWindowTitle("Protecting against Blade Ball Anticheat...")
@@ -1807,14 +1809,15 @@ ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.102370687, 0, 0.176282048, 0)
-ImageButton.Size = UDim2.new(0, 54, 0, 54)
+ImageButton.Size = UDim2.new(0.0581896566, 0, 0.0865384638, 0)
 ImageButton.Image = "rbxassetid://90451194349182"
+ScreenGui.ResetOnSpawn = false
 
 UICorner.Parent = ImageButton
 
 -- Scripts:
 
-local function PCTYAP_fake_script() -- ImageButton.LocalScript 
+local function HOQTP_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local UIS = game:GetService('UserInputService')
@@ -1852,8 +1855,8 @@ local function PCTYAP_fake_script() -- ImageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PCTYAP_fake_script)()
-local function TINARWG_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(HOQTP_fake_script)()
+local function UBRBZIO_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local TB =  script.Parent
@@ -1862,5 +1865,4 @@ local function TINARWG_fake_script() -- ImageButton.LocalScript
 		Library:ToggleUI()
 	end)
 end
-coroutine.wrap(TINARWG_fake_script)()
-
+coroutine.wrap(UBRBZIO_fake_script)()
